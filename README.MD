@@ -8,4 +8,8 @@ To build executable jar file, run in root project dir:
 Run program example:
 
      		       java -jar TagFinder.jar -f e:\music
-
+Genre can be a number or word representation:    	
+	       
+     		       java -jar TagFinder.jar -f e:\music -g Other
+     		       java -jar TagFinder.jar -f e:\music -g 12
+    
